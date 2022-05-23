@@ -66,7 +66,7 @@ void loop() {
   executed every time a new value is received from IoT Cloud.
 */
 void onBulb1Change()  {
-  // Add your code here to act upon Bulb1 change
+
   if(bulb1==1)
   {
     digitalWrite(19,HIGH);
@@ -81,7 +81,7 @@ void onBulb1Change()  {
   executed every time a new value is received from IoT Cloud.
 */
 void onBulb2Change()  {
-  // Add your code here to act upon Bulb2 change
+ 
   if(bulb2==1)
   {
     digitalWrite(21,HIGH);
@@ -96,7 +96,7 @@ void onBulb2Change()  {
   executed every time a new value is received from IoT Cloud.
 */
 void onBulb3Change()  {
-  // Add your code here to act upon Bulb3 change
+
   if(bulb3==1)
   {
     digitalWrite(22,HIGH);
@@ -111,7 +111,7 @@ void onBulb3Change()  {
   executed every time a new value is received from IoT Cloud.
 */
 void onBulb4Change()  {
-  // Add your code here to act upon Bulb4 change
+ 
   if(bulb4==1)
   {
     digitalWrite(23,HIGH);
